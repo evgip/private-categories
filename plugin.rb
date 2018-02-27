@@ -1,7 +1,7 @@
-# name: show-private-categories
+# name: private-categories
 # about: Show private categories in category list and allow requesting access
 # version: 0.0.1
-# authors: Jose Rilla
+# authors: Evg
 
 enabled_site_setting :show_private_categories
 
