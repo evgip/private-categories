@@ -1,7 +1,7 @@
 ru:
   js:
     private_categories:
-      this_category_is_private: "{{name}} приватная."
+      this_category_is_private: "Приватный раздел."
       you_need_to_sign_in: "Чтобы запросить доступ, вначале войдите в систему."
       you_need_to_request_access: "Вам нужно запросить доступ, чтобы присоединиться."
       request_access_button: "Запросить доступ"
