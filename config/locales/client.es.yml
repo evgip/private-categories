@@ -5,6 +5,7 @@ es:
       you_need_to_sign_in: "Para solicitar acceso, primero tienes que iniciar sesión"
       you_need_to_request_access: "Tienes que solicitar acceso para unirte"
       request_access_button: "Solicitar acceso"
+      cat_name: "{{name}}"
       message:
         subject: "Solicitud de acceso a {{name}}"
         body: "Hola!\n\n Me gustaría unirme a {{name}}.\n\nGracias, saludos!"
