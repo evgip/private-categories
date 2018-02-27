@@ -1,0 +1,10 @@
+ru:
+  js:
+    private_categories:
+      this_category_is_private: "{{name}} приватная."
+      you_need_to_sign_in: "Чтобы запросить доступ, сначала необходимо войти в систему."
+      you_need_to_request_access: "Вам нужно запросить доступ, чтобы присоединиться."
+      request_access_button: "Запросить доступ"
+      message:
+        subject: "Запрос доступа к {{name}}"
+        body: "Здравствуйте!\n\n Я пишу, чтобы запросить доступ к {{name}}.\n\n Заранее спасибо!"
