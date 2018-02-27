@@ -22,21 +22,20 @@
             </div>
             {{#if c.subcategories}}
               <div class='subcategories'>
-                {{#each c.subcategories as |s|}}
+                      {{#each c.subcategories as |s|}}
                   <span class='subcategory'>
                     {{category-title-before category=s}}
                     {{category-link s hideParent="true"}}
                     {{category-unread category=s}}
                   </span>
-                {{/each}}
+                {{/each}}    
+     
               </div>
             {{/if}}
-          </td>
-          
-          
-          
-            {{#if c.is_private}}
-              <td>
+            
+            
+           {{#if c.is_private}}
+       
                 <div class="alert alert-info">
                   <h4>{{replace-emoji (i18n 'private_categories.this_category_is_private' name=c.name)}}</h4>
                   {{#if currentUser}}
@@ -50,15 +49,14 @@
                     {{d-button action="showLogin" class="btn-small btn-primary login-button" icon="user" label="log_in"}}
                   {{/if}}
                 </div>
-              </td>
+             
             {{else}}
-              <td class="{{if c.archived 'archived'}} latest">
-                {{#each c.featuredTopics as |f|}}
-                  {{featured-topic topic=f latestTopicOnly=latestTopicOnly action="showTopicEntrance"}}
-                {{/each}}
-              </td>
-           {{/if}}          
+
           
+           {{/if}}       
+            
+  </td>
+         
           
           <td class="topics">
             <div title={{c.statTitle}}>{{{c.stat}}}</div>
