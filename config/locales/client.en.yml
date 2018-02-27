@@ -5,6 +5,7 @@ en:
       you_need_to_sign_in: "To request access, first you need to sign in."
       you_need_to_request_access: "You need to request access to join."
       request_access_button: "Request access"
+      cat_name: "{{name}}"
       message:
         subject: "Requesting access to {{name}}"
         body: "Hey there!\n\n I'm writing to request access to {{name}}.\n\nThanks, cheers!"
