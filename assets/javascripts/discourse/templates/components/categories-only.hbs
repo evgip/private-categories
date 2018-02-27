@@ -21,7 +21,7 @@
               
          {{#if c.is_private}}
          <h3 id="ember1144" class="ember-view">
-         {{i18n 'private_categories.cat_name'}}
+         {{replace-emoji (i18n 'private_categories.cat_name' name=c.name)}}
          </h3>
          <div class="category-description">
            {{{dir-span c.description_excerpt}}}
