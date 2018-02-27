@@ -3,8 +3,8 @@ ru:
     private_categories:
       this_category_is_private: "Приватный раздел."
       you_need_to_sign_in: "Чтобы запросить доступ, вначале войдите в систему."
-      you_need_to_request_access: "Вам нужно запросить доступ, чтобы присоединиться."
-      request_access_button: "Запросить доступ"
+      you_need_to_request_access: "Вам нужно присоединиться к группе."
+      request_access_button: "Присоединиться"
       message:
         subject: "Запрос доступа к {{name}}"
         body: "Здравствуйте!\n\n Я пишу, чтобы запросить доступ к {{name}}.\n\n Заранее спасибо!"
